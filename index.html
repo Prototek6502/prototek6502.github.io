@@ -39,7 +39,6 @@ body {
 
 /* Style the navigation bar links */
 .navbar a {
-  float: center;
   display: block;
   color: light-dark(#f4f4f4, #131313);
   text-align: center;
@@ -63,6 +62,21 @@ body {
 .navbar a:hover {
   background-color: light-dark(#cdcdcd, #393838);
   color: light-dark(#cdcdcd, #393838);
+}
+
+/* Breadcrumbs */
+ul.breadcrumb {
+  padding: 8px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+ul.breadcrumb li {display: inline;}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
 }
 
 /* Column container */
@@ -145,9 +159,9 @@ body {
 </div>
 
 <div class="footer">
-  <p>© 2025 Linkin's domain</p>
+  <p>©2025 All rights reserved</p>
   <p>Made with ❤️ by Linkin</p>
-  <p>Powered by <a href="https://github.com/Prototek6502/prototek6502.github.io">Github</a>
+  <p>Powered by <a href="https://github.com/Prototek6502/prototek6502.github.io">Github</a></p>
 </div>
 
 </body>
