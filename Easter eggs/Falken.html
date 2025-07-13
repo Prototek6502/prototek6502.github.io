@@ -7,6 +7,8 @@ body {
   font-family: monospace;
   text-align: left;
   padding: 50px;
+  height: device-height;
+  overflow: hidden;
 }
 
 @keyframes flicker {
@@ -174,18 +176,4 @@ body {
 </head>
 <body class="crt">
     <p class="crt">Greetings Professor Falken, would you like to play a game?</p>
-</body>
-    <title>Falken</title>
-    <style>
-
-    </style>
-    <script>
-        function showMessage() {
-            document.getElementById('message').classList.remove('hidden');
-        }
-    </script>
-    <p>Greetings Professor Falken, would you like to play a game?</p>
-    <p></p>
-    <button onclick="showMessage()">Reveal Message</button>
-    <p id="message" class="hidden">The only winning move is not to play.</p>   
 </body>
