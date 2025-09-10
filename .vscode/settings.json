@@ -1,5 +1,6 @@
 {
     "github-actions.workflows.pinned.workflows": [
-        "dynamic/pages/pages-build-deployment"
+        "dynamic/pages/pages-build-deployment",
+        "dynamic/codespaces/create_codespaces_prebuilds"
     ]
 }
