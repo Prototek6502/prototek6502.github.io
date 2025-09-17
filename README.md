@@ -1,4 +1,3 @@
-</style>
 <body class="crt">
   <h1 class="crt">Linkins website</h1>
   <p>This is pretty much a front page for all the  stuff I make.</p>
